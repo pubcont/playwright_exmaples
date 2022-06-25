@@ -3,8 +3,8 @@ name: 'e2e-lenhardt.cc'
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '15 * * * *'
+# schedule:
+#    - cron: '15 * * * *'
 
 jobs:
   e2e-tests:
